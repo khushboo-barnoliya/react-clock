@@ -1,0 +1,45 @@
+
+@font-face{
+  font-family:'technology-bold-italic';
+  src: url('./assets/fonts/Technology-BoldItalic.ttf');
+ }
+
+body{
+  font-family: 'technology-bold-italic';
+  background-color: black;
+  color: rgb(0, 206, 206);
+  user-select: none;
+}
+
+#heroMain{
+  background: black;
+  background-size: 100%;
+}
+
+#heroInner{
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(75px);
+}
+
+#contInner{
+  width: 60vw;
+}
+
+#timeSpan{
+  height: 10rem;
+  font-size: 15vw;
+  text-shadow: 2px 2px 200px rgba(0, 206, 206, 0.589);
+}
+
+.timeSpan2{
+  transform: rotateX(-180deg);
+  opacity: 0.2;
+}
+
+#innerSpan{
+  width: 100% !important;
+  height: 100% !important;
+  background: linear-gradient(to top, transparent, black 80%);
+  transform: skewX(-3deg) translateX(10px);
+}
